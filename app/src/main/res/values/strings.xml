@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">email</string>
+    <string name="prueba_de_envio_de_email">Prueba de envio de email</string>
+    <string name="pruebaodoo_gmail_com">pruebaodoo@gmail.com</string>
+    <string name="todo">TODO</string>
+</resources>
