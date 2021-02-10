@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="76dp"
         android:layout_marginBottom="100dp"
-        android:contentDescription="@string/todo"
+        android:contentDescription="@string/foto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
@@ -24,14 +24,14 @@
         android:id="@+id/textEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/pruebaodoo_gmail_com"
-        android:textAlignment="center"
+        android:text="@string/direccion_email"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.077" />
+        app:layout_constraintVertical_bias="0.073" />
 
     <ImageButton
         android:id="@+id/buttonSacarFoto"
@@ -40,7 +40,7 @@
         android:layout_marginBottom="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.284"
+        app:layout_constraintHorizontal_bias="0.266"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/camara" />
@@ -51,6 +51,7 @@
         android:layout_height="200dp"
         android:layout_marginTop="36dp"
         android:background="@android:color/darker_gray"
+        android:contentDescription="foto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.544"
