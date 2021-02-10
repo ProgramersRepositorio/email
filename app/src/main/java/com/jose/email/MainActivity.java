@@ -130,7 +130,6 @@ public class MainActivity extends AppCompatActivity {
             Log.i("Mensaje", "Se tiene permiso para usar la camara");
         }
     }
-
     //OnActivityResult
     @Override protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
