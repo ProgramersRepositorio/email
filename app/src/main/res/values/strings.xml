@@ -3,4 +3,5 @@
     <string name="prueba_de_envio_de_email">Prueba de envio de email</string>
     <string name ="direccion_email">programersrepositorio@gmail.com</string>
     <string name="foto">foto</string>
+    <string name="nombre_foto">Nombre Foto</string>
 </resources>
